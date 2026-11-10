@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "Ligtas Kababayan",
+    "slug": "ligtas-kababayan",
+    "version": "0.2.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "icon": "./assets/AppIcon2.png",
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Ligtas Kababayan uses your location to tell rescuers where you are."
+        }
+      ],
+      "expo-status-bar"
+    ],
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/AppIcon2.png",
+        "backgroundColor": "#102A43"
+      },
+      "package": "com.ligtas.kababayan",
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION"
+      ]
+    },
+    "ios": {
+      "bundleIdentifier": "com.ligtas.kababayan",
+      "supportsTablet": false
+    }
+  }
+}
